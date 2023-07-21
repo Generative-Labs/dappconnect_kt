@@ -15,6 +15,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "dappconnect_kt"
-include ':wallet_demo'
+//include ':wallet_demo'
 include ':dappconnect'
-include ':module_wallet'
+//include ':module_wallet'
