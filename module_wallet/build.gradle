@@ -31,7 +31,13 @@ android {
 }
 
 dependencies {
-    api project(path: ':dappconnect')
+//    api project(path: ':dappconnect')
+    api 'com.github.Generative-Labs:dappconnect_kt:v1.0.0-alpha'
+    {
+        exclude module: "jna"
+    }
+//    implementation "com.goterl:lazysodium-android:5.1.0@aar"
+//    implementation "net.java.dev.jna:jna:5.8.0@aar"
     api 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'

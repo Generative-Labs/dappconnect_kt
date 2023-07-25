@@ -48,7 +48,7 @@ object DAppConnect {
     private val aNative: Sign.Native
     private var currentSession: Web3MQSession
     private var dAppID: String? = null
-    private const val TAG = "Web3MQSign"
+    private const val TAG = "DAppConnect"
 
     //session有效期
     private val session_valid_duration = (1000 * 60 * 60 * 24).toLong()
@@ -611,7 +611,7 @@ object DAppConnect {
     }
 
     fun walletBuildAndSaveSession(connectRequest: ConnectRequest) {
-        if (currentSession == null || currentSession.selfParticipant == null) {
+        if (currentSession.selfParticipant == null) {
             return
         }
         currentSession.peerTopic = connectRequest.topic
