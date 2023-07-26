@@ -12,11 +12,11 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import com.bumptech.glide.Glide
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.ty.dappconnect.DAppConnect
+import com.ty.dappconnect_kt.R
 import com.ty.module_sign.interfaces.OnConnectCallback
 import com.ty.module_sign.interfaces.OnSignCallback
 import com.ty.module_sign.interfaces.WalletInitCallback
-import com.ty.module_wallet.R
-import com.ty.module_wallet.fragment.BaseFragment
+import com.ty.dappconnect_kt.fragment.BaseFragment
 import com.ty.web3mq.Web3MQClient
 import com.ty.web3mq.interfaces.BridgeConnectCallback
 import com.ty.web3mq.interfaces.ConnectCallback

@@ -1,4 +1,4 @@
-package com.ty.module_wallet.fragment
+package com.ty.dappconnect_kt.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
-import com.ty.module_wallet.R
+import com.ty.dappconnect_kt.R
 
 open class BaseFragment : Fragment() {
     protected lateinit var rootView: ConstraintLayout
