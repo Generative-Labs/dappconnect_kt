@@ -9,7 +9,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.Generative-Labs'
             artifactId = 'dappconnect-kt'
-            version = '1.0.3'
+            version = '1.0.4'
 
             afterEvaluate {
                 from components.release
