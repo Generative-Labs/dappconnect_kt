@@ -9,7 +9,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.Generative-Labs'
             artifactId = 'dappconnect-kt'
-            version = '1.0.5'
+            version = '1.0.6'
 
             afterEvaluate {
                 from components.release
@@ -51,8 +51,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.9.0'
     api 'com.github.Generative-Labs:web3mq_kt:1.0.9'
     testImplementation 'junit:junit:4.13.2'
-    api "com.goterl:lazysodium-android:5.1.0@aar"
-    api "net.java.dev.jna:jna:5.12.1@aar"
+    implementation "com.goterl:lazysodium-android:5.1.0@aar"
+    implementation "net.java.dev.jna:jna:5.12.1@aar"
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
