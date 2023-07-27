@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/dappconnect" />
+            <option value="$PROJECT_DIR$/wallet_demo" />
           </set>
         </option>
       </GradleProjectSettings>

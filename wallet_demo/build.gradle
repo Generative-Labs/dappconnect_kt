@@ -36,14 +36,14 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
-    implementation 'com.github.Generative-Labs:web3mq_kt:1.0.9'
-    implementation 'com.github.Generative-Labs:dappconnect_kt:v1.0.4'
-    implementation "com.goterl:lazysodium-android:5.1.0@aar"
-    implementation ('net.java.dev.jna:jna:5.13.0@aar')
-//    implementation project(path: ':dappconnect')
+//    implementation 'com.github.Generative-Labs:web3mq_kt:1.0.9'
+//    implementation 'com.github.Generative-Labs:dappconnect_kt:1.0.6'
+//    implementation "com.goterl:lazysodium-android:5.1.0@aar"
+    implementation "net.java.dev.jna:jna:5.12.1@aar"
+    implementation project(path: ':dappconnect')
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation "io.github.g00fy2.quickie:quickie-bundled:1.7.0"
+    implementation "io.github.g00fy2.quickie:quickie-bundled:1.6.0"
 }
